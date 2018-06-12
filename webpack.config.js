@@ -12,7 +12,10 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        loader: resolve('./src/loader/index.js')
+        loader: resolve('./src/loader/index.js'),
+        options: {
+          onlyLine: true
+        }
       }
     ]
   }

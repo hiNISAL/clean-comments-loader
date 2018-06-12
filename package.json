@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/hiNISAL/clean-comments-loader/issues"
   },
-  "homepage": "https://github.com/hiNISAL/clean-comments-loader#readme"
+  "homepage": "https://github.com/hiNISAL/clean-comments-loader#readme",
+  "devDependencies": {
+    "loader-utils": "^1.1.0"
+  }
 }

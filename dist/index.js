@@ -65,11 +65,46 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony default export */ __webpack_exports__["default"] = (a = 1);
+const str = `
+// 1
+
+/* fdsafdsafdsa */
+
+
+/*
+ * fdsa
+ * fdsafdasas
+*/
+`
+
+
+
+/**
+ * fdsafdas
+ */
+
+ /* fdasfd */
+
+alert(1);
+
+const b = '//fdafdas';
+
+
+
+/**
+ * nodd
+ * @param {*} a 
+ * @param {*} b 
+ * @param {*} c 
+ */
+function a(a, b, c) {
+  
+  return a + b + c + '/* fdsafdsa */   // fdsafdsa';
+}
+
+
 
 /***/ })
 /******/ ]);
