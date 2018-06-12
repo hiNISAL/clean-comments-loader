@@ -1,0 +1,23 @@
+{
+  "name": "clean-comments-loader",
+  "version": "0.0.1",
+  "description": "To remove the comments in js/css/html and more.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiNISAL/clean-comments-loader.git"
+  },
+  "keywords": [
+    "loader",
+    "webpack"
+  ],
+  "author": "NISAL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiNISAL/clean-comments-loader/issues"
+  },
+  "homepage": "https://github.com/hiNISAL/clean-comments-loader#readme"
+}
