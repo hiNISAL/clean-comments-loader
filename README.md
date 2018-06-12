@@ -5,7 +5,9 @@
 
 ## 安装 Install
 
-`npm i clean-comments-loader loader-utils -D`
+`npm i clean-comments-loader -D`
+
+If you got an error `Module build failed: Error: Cannot find module 'loader-utils'`, you need install the package `loader-utils`(just run `npm i loader-utils -D` in the terminal).
 
 ## 使用 Usage
 
