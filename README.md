@@ -5,7 +5,7 @@
 
 ## 安装 Install
 
-`npm i clean-comments-loader -D`
+`npm i clean-comments-loader loader-utils -D`
 
 ## 使用 Usage
 

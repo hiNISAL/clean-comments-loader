@@ -2,13 +2,14 @@ const { getOptions } = require('loader-utils');
 const { removeComments } = require('../utils/utils');
 
 module.exports = function(source) {
-  const options = getOptions(this);
 
-  if (options.onlyBlock) {
+  const { onlyBlock, onlyLine } = getOptions(this) || {};
+
+  if (onlyBlock) {
     return removeComments(source, 'onlyBlock');
   }
 
-  if (options.onlyLine) {
+  if (onlyLine) {
     return removeComments(source, 'onlyLine');
   }
 

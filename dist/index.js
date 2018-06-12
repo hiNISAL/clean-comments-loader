@@ -81,11 +81,9 @@ const str = `
 
 
 
-/**
- * fdsafdas
- */
 
- /* fdasfd */
+
+ 
 
 alert(1);
 
@@ -93,12 +91,7 @@ const b = '//fdafdas';
 
 
 
-/**
- * nodd
- * @param {*} a 
- * @param {*} b 
- * @param {*} c 
- */
+
 function a(a, b, c) {
   
   return a + b + c + '/* fdsafdsa */   // fdsafdsa';
