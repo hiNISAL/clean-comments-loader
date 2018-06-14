@@ -26,6 +26,7 @@ function handleStringArray(arr, type) {
 }
 
 exports.removeComments = function(code, type) {
+  code = '\n' + code;
   const length = code.length;
   let strFlag = false;
 
@@ -54,5 +55,5 @@ exports.removeComments = function(code, type) {
 
   }
 
-  return handleStringArray(parsedStrArr, type).join('');
+  return handleStringArray(parsedStrArr, type).join('').slice(1, length);
 };

@@ -1,7 +1,8 @@
 # clean-comments-loader
 
-> To remove the comments in js/css/html and more.
-> 可以清除类c注释语言的注释(字符串中的类似注释的字符不会被清楚)
+> To remove the comments in js/css and more (C style comments).
+
+> 可以清除类c注释(字符串中的类似注释的字符不会被清除)
 
 ## 安装 Install
 
