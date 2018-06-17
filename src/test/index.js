@@ -34,4 +34,3 @@ function a(a, b, c) {
   // fdas
   return a + b + c + '/* fdsafdsa */   // fdsafdsa';
 }
-

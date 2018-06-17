@@ -72,28 +72,18 @@ const str = `
 
 /* fdsafdsafdsa */
 
-
 /*
  * fdsa
  * fdsafdasas
 */
 `
 
-
-
-
-
- 
-
 alert(1);
 
 const b = '//fdafdas';
 
-
-
-
 function a(a, b, c) {
-  
+
   return a + b + c + '/* fdsafdsa */   // fdsafdsa';
 }
 
