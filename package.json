@@ -20,7 +20,7 @@
     "url": "https://github.com/hiNISAL/clean-comments-loader/issues"
   },
   "homepage": "https://github.com/hiNISAL/clean-comments-loader#readme",
-  "devDependencies": {
+  "dependencies": {
     "loader-utils": "^1.1.0"
   }
 }

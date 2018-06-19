@@ -33,4 +33,3 @@ If you got an error `Module build failed: Error: Cannot find module 'loader-util
 - onlyLine
   - 只清楚行内注释 Only clean line comments
   - `Ture` or `False`(default)
-
